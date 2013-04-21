@@ -1,4 +1,8 @@
 Travel::Application.routes.draw do
+  get 'newyork' => 'pages#newyork'
+
+  root :to => 'pages#home'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
