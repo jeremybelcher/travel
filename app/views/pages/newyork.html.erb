@@ -1,3 +1,11 @@
+require 'songkickr'
+remote = Songkickr::Remote.new xZ1mTWcHfu6whfkt
+remote.api_key
+xZ1mTWcHfu6whfkt
+
 <div class="page-header">
 	<h1>New York</h1>
+
+results = remote.events(:query => 'Iron Maiden')
+
 </div>
